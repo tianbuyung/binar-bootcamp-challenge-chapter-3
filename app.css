@@ -7,7 +7,34 @@
     width: 100%;
 }
 
-.button{
+.button-first-page{
     width: 260px;
     height: 60px;
+}
+
+.second-page{
+    background-image: url(/assets/the-games-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.text-second-page{
+    margin-top: -3.125rem;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+.carousel-control-next-icon{
+    background-image: url(/assets/switch-right.svg);
+}
+
+.carousel-control-prev-icon{
+    background-image: url(/assets/switch-left.svg);
 }
