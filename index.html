@@ -25,7 +25,7 @@
     <section class="first-page">
         <div class="container-fluid px-0">
             <!-- Navbar -->
-            <nav id="mainNavbar" class="navbar navbar-dark bg-dark navbar-expand-md bg-opacity-50 fixed-top">
+            <nav id="mainNavbar" class="navbar fixed-top navbar-dark bg-dark navbar-expand-md bg-opacity-50">
                 <a href="" class="navbar-brand px-5 px-lg-5 mx-sm-3 mx-lg-5">Logo</a>
                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navLinks">
                     <span class="navbar-toggler-icon"></span>
@@ -107,9 +107,9 @@
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
                                 aria-label="Slide 5"></button>
                         </div>
-                        <div class="carousel-inner">
+                        <div class="carousel-inner" id="myCarousel">
                             <div class="carousel-item active">
-                                <img class="img-fluid" src="/assets/rockpaperstrategy-1600.jpg" class="d-block w-100"
+                                <img class="img-fluid " src="/assets/rockpaperstrategy-1600.jpg" class="d-block w-100"
                                     alt="...">
                             </div>
                             <div class="carousel-item">
@@ -176,6 +176,53 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fourth Page -->
+    <section class="fourth-page position-relative">
+        <div class="container position-absolute top-50 start-50 translate-middle">
+            <div class="pb-5">
+                <h4 class="h4 text-white text-center">Can My Computer Run this game?</h3>
+            </div>
+            <div class="col-6">
+                <div class="pb-2">
+                    <h1 class="h1 text-white text-uppercase">system <br> requirements</h1>
+                </div>
+                <div class="py-2">
+                    <table class="table text-white table-bordered border-light">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p class="h4 text-warning text-uppercase">OS:</p>
+                                    Windows 7 64-bit only
+                                    (No OSX support at this time)
+                                </td>
+                                <td>
+                                    <p class="h4 text-warning text-uppercase">PROCESSOR:</p>
+                                    Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="h4 text-warning text-uppercase">MEMORY:</p>
+                                    4 GB RAM
+                                </td>
+                                <td>
+                                    <p class="h4 text-warning text-uppercase">STORAGE:</p>
+                                    8 GB available space
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <p class="h4 text-warning text-uppercase">GRAPHICS:</p>
+                                    NVIDIA GeForce GTX 660 2GB or
+                                    AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
