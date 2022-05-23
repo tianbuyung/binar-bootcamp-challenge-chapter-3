@@ -178,3 +178,12 @@
   height: 100vh;
   width: 100%;
 }
+
+.sixth-page{
+  background-image: url(/assets/newsletter.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+}
