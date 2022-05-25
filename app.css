@@ -179,6 +179,15 @@
   width: 100%;
 }
 
+.button-fifth-page{
+  width: 16.25rem;
+  height: 3.75rem;
+}
+
+.img-shadow-fifth-page{
+  box-shadow: 7px 7px 7px #FFB548;
+}
+
 .sixth-page{
   background-image: url(/assets/newsletter.png);
   background-size: cover;
