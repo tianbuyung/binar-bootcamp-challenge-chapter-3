@@ -1,5 +1,5 @@
 .first-page{
-    background-image: url("/assets/main-bg.jpg");
+    background-image: url(assets/main-bg.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -13,7 +13,7 @@
 }
 
 .second-page{
-    background-image: url(/assets/the-games-bg.jpg);
+    background-image: url(assets/the-games-bg.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -32,11 +32,11 @@
 }
 
 .carousel-control-next-icon{
-    background-image: url(/assets/switch-right.svg);
+    background-image: url(assets/switch-right.svg);
 }
 
 .carousel-control-prev-icon{
-    background-image: url(/assets/switch-left.svg);
+    background-image: url(assets/switch-left.svg);
 }
 
 @media screen and (min-width: 576px) {
@@ -66,7 +66,7 @@
 }
 
 .third-page{
-  background-image: url(/assets/features.jpg);
+  background-image: url(assets/features.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -146,7 +146,7 @@
 }
 
 .fourth-page{
-  background-image: url(/assets/requirements.png);
+  background-image: url(assets/requirements.png);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -155,7 +155,7 @@
 }
 
 .fifth-page{
-  background-image: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(35, 15, 15, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%), url(/assets/top-score-bg.png);
+  background-image: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(35, 15, 15, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%), url(assets/top-score-bg.png);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -173,12 +173,17 @@
 }
 
 .sixth-page{
-  background-image: url(/assets/newsletter.png);
+  background-image: url(assets/newsletter.png);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   height: 100vh;
   width: 100%;
+}
+
+.bg-footer{
+  background-color: #080A0B;
+  ;
 }
 
 #btn-back-to-top {
